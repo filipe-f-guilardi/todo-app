@@ -1,0 +1,48 @@
+.app {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #333;
+  color: #ddd;
+  overflow: hidden;
+}
+
+.app .container {
+  background-color: #111;
+  border-radius: 10px;
+
+  padding: 10px;
+
+  width: 400px;
+  height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.add {
+  width: 100%;
+  height: 10%;
+}
+
+.todos {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.todos::-webkit-scrollbar {
+  width: 15px;
+}
+.todos::-webkit-scrollbar-track {
+  background-color: #333;
+}
+.todos::-webkit-scrollbar-thumb {
+  background-color: #666;
+  border-radius: 50px;
+  border: 3px solid #333;
+}

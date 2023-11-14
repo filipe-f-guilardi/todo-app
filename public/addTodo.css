@@ -1,0 +1,41 @@
+.add-todo {
+  display: flex;
+
+  height: 100%;
+  width: 100%;
+
+  gap: 10px;
+}
+
+.add-todo button {
+  width: 140px;
+
+  font-size: 20px;
+
+  background-color: #111;
+  border: 2px solid crimson;
+
+  transition: all 200ms;
+}
+.add-todo button:hover {
+  background-color: crimson;
+
+  transition: all 200ms;
+}
+
+.add-todo input {
+  width: 100%;
+
+  font-size: 36px;
+  outline: 0;
+
+  padding: 10px;
+
+  border: 2px solid #666;
+  background-color: #111;
+}
+
+.add-todo input,
+.add-todo button {
+  border-radius: 10px;
+}
